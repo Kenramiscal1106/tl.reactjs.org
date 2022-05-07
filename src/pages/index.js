@@ -50,7 +50,7 @@ class Home extends Component {
     return (
       <Layout location={location}>
         <TitleAndMetaTags
-          title="React &ndash; A JavaScript library for building user interfaces"
+          title="React &ndash; Ang JavaScript library para sa pagbuo ng mga user interface"
           canonicalUrl={createCanonicalUrl('/')}
         />
         <div
@@ -141,7 +141,7 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                    A JavaScript library for building user interfaces
+                    Ang JavaScript library para sa pagbuo ng mga user interface
                   </p>
                   <Flex
                     valign="center"
@@ -159,12 +159,12 @@ class Home extends Component {
                       <ButtonLink
                         to="/docs/getting-started.html"
                         type="primary">
-                        Get Started
+                        Magsimula na
                       </ButtonLink>
                     </CtaItem>
                     <CtaItem>
                       <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                        Take the Tutorial
+                        Kuhanin ang tutoryal
                       </ButtonLink>
                     </CtaItem>
                   </Flex>
@@ -302,12 +302,12 @@ class Home extends Component {
                 }}>
                 <CtaItem>
                   <ButtonLink to="/docs/getting-started.html" type="primary">
-                    Get Started
+                    Magsimula na
                   </ButtonLink>
                 </CtaItem>
                 <CtaItem>
                   <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                    Take the Tutorial
+                    Kuhanin ang tutoryal
                   </ButtonLink>
                 </CtaItem>
               </Flex>
